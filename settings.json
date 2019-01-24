@@ -4,9 +4,10 @@
     "editor.formatOnPaste": true,
     "editor.formatOnType": true,
     "terminal.integrated.env.windows": {
-        "PATH": "${env:PATH};D:\\ware\\mingw-w64\\x86_64-8.1.0-posix-seh-rt_v6-rev0\\mingw64\\bin;D:\\ware\\PortableGit\\bin"
+        "Path": "${env:PATH};D:\\ware\\mingw-w64\\mingw64\\bin;D:\\ware\\PortableGit\\bin"
     },
-    // Path eand filename of the git executable, e.g. `C:\Program Files\Git\bin\git.exe` (Windows).
+    "explorer.confirmDelete": false,
+    "terminal.integrated.shell.windows": "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+    "terminal.external.windowsExec": "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
     "git.path": "D:\\ware\\PortableGit\\bin\\git.exe",
-    "explorer.confirmDelete": false
 }
